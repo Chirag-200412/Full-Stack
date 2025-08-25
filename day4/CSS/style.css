@@ -1,0 +1,20 @@
+* {
+  margin: 0; /*Universal Selector*/
+  padding: 0;
+}
+p {
+  background-color: orange; /*Element Selector*/
+}
+#id {
+  color: blueviolet; /*Id Selector*/
+}
+.class {
+  color: brown; /*Class Selector*/
+}
+div p {
+  color: aqua; /*Descendent Selector*/
+}
+h1,
+h2 {
+  font-size: 50px; /*Group Selector*/
+}
