@@ -1,0 +1,25 @@
+.normal {
+  font-weight: 900;
+  font-size: 5em; /*Relative Size*/
+}
+
+.decor {
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+  line-height: 15px;
+  letter-spacing: 15px;
+  font-size: 62px; /*Absolute Size*/
+  font-family: "Playwrite CA", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.styling {
+  list-style: circle;
+}
+
+body {
+  background-color: rgb(252, 186, 3, 0.5);
+}
