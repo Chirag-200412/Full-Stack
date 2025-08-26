@@ -1,6 +1,7 @@
 .normal {
   font-weight: 900;
   font-size: 5em; /*Relative Size*/
+  border: 5px solid black;
 }
 
 .decor {
@@ -22,4 +23,9 @@
 
 body {
   background-color: rgb(252, 186, 3, 0.5);
+}
+
+img {
+  border: 5px solid black;
+  border-radius: 50%;
 }
