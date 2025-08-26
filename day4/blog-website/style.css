@@ -1,9 +1,16 @@
 * {
+  background-color: #27f591;
   font-style: italic;
+}
+
+nav {
+  background-color: darkgrey;
 }
 
 nav ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 h4 {
@@ -16,4 +23,5 @@ legend {
   font-size: 20px;
   color: brown;
   text-transform: uppercase;
+  text-align: center;
 }
