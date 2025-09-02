@@ -1,0 +1,13 @@
+img {
+  background-color: blanchedalmond;
+  height: 120px;
+  width: 120px;
+  margin: 0 0 0 40px; /*Top Right Bottom Left*/
+  padding: 25px;
+  border: 5px solid black;
+  border-radius: 50%;
+}
+
+fieldset {
+  margin: 0 700px 0 700px;
+}

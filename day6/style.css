@@ -1,0 +1,36 @@
+.container {
+  display: inline;
+}
+
+.container2 {
+  /* border: 3px solid black;
+  height: 60px; */
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  border: 3px solid black;
+  height: 500px;
+}
+
+.box {
+  background-color: darksalmon;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  border: 2px solid black;
+  /* float: right; */
+}
+
+.box1 {
+  background-color: darksalmon;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  /* position: relative; */
+  /* position: absolute; */
+  /* position: fixed; */
+  border: 2px solid black;
+  align-self: center;
+  left: 50px;
+  order: 2;
+}

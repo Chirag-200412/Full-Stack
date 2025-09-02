@@ -3,14 +3,22 @@
   font-style: italic;
 }
 
+.nav {
+  display: flex;
+}
+
 nav {
-  background-color: darkgrey;
+  position: fixed;
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+nav ul li {
+  display: inline;
 }
 
 h4 {
@@ -24,4 +32,13 @@ legend {
   color: brown;
   text-transform: uppercase;
   text-align: center;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.second {
+  background-color: white;
 }
