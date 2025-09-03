@@ -1,44 +1,154 @@
 * {
-  background-color: #27f591;
-  font-style: italic;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.nav {
+body {
+  background: #f9fafb;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: lightblue;
+  padding: 10px 5%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav nav {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-nav {
-  position: fixed;
+.nav .logo {
+  height: 45px;
+  transition: transform 0.3s ease;
+}
+
+.nav .logo:hover {
+  transform: scale(1.1);
 }
 
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.3s ease;
+}
+
+nav ul a:hover {
+  color: #ff9800;
 }
 
 nav ul li {
-  display: inline;
+  display: flex;
+  align-items: center;
 }
 
-h4 {
-  font-weight: bold;
-  text-decoration: underline;
+main {
+  padding: 40px 8%;
+}
+
+fieldset {
+  border: none;
+  background: #fff;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.08);
 }
 
 legend {
+  font-size: 1.5rem;
   font-weight: bold;
-  font-size: 20px;
-  color: brown;
-  text-transform: uppercase;
-  text-align: center;
+  color: #222;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.Main {
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .image {
-  display: flex;
-  justify-content: center;
+  text-align: center;
+  margin: 20px 0;
 }
 
-.second {
-  background-color: white;
+.image img {
+  max-width: 100%;
+  border-radius: 12px;
+  transition: transform 0.4s ease;
+}
+
+.image img:hover {
+  transform: scale(1.03);
+}
+
+h4 {
+  margin: 18px 0 8px;
+  color: #ff5722;
+}
+
+p {
+  margin-bottom: 12px;
+  font-size: 1rem;
+  color: #555;
+}
+
+footer {
+  background: lightblue;
+  color: #fff;
+  text-align: center;
+  padding: 25px 10px;
+  margin-top: 30px;
+}
+
+footer h2 {
+  margin-bottom: 12px;
+  font-size: 1.4rem;
+  color: #ff9800;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+footer ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: #ff5722;
+}
+
+footer p {
+  font-size: 0.85rem;
+  color: #000;
 }
