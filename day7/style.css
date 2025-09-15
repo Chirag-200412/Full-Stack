@@ -2,7 +2,9 @@ div {
   width: 100px;
   height: 100px;
   background-color: rgb(187, 0, 255);
-  transition: height 2s, width 2s;
+  transition-property: height width; /*For Whom we are to apply*/
+  transition-duration: 2s; /*How much time it take to do the task*/
+  transition-delay: 10s; /*After how much time it work*/
 }
 
 div:hover {
