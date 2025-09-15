@@ -5,12 +5,18 @@ div {
   transition-property: width;
   transition-duration: 5s;
   transition-delay: 5s;
-}
-
-div:hover {
-  width: 300px;
+  animation: colorChange 2s linear;
 }
 
 @keyframes colorChange {
-    
+  0% {
+    width: 0%;
+    background-color: orange;
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: brown;
+  }
 }
