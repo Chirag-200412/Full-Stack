@@ -1,0 +1,21 @@
+body {
+  background: url("https://tse4.mm.bing.net/th/id/OIP.SPcqROcK2nW-mwbbF8nQ4gHaEK?pid=Api&h=220&P=0")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+footer {
+  background: #343a40;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
+.fw-bold {
+  color: white;
+}
